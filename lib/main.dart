@@ -1,20 +1,27 @@
 import 'package:flutter/material.dart';
+import 'pages/main.dart';
 
 void main() {
-  runApp(const MainApp());
+  runApp(const BlackMarket());
 }
 
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
+class BlackMarket extends StatelessWidget {
+  const BlackMarket({super.key});
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(
-        body: Center(
-          child: Text('Its Application Free Ride'),
-        ),
+    return MaterialApp(
+      routes: {
+        '/': (context) => MainPage(),
+      },
+      theme: ThemeData(
+        primarySwatch: Colors.green,
       ),
+      title: 'Сахалыы аккордар',
+
+      /*home: Scaffold(
+        body: AuthorizationPage(),
+        Navigator.of(context).pushNamed('/all_listings');
+      ),*/
     );
   }
 }
