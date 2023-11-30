@@ -16,7 +16,7 @@ class BlackMarket extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.green,
       ),
-      title: 'Сахалыы аккордар',
+      title: 'FreeRiders',
 
       /*home: Scaffold(
         body: AuthorizationPage(),
