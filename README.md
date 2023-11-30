@@ -1,3 +1,3 @@
-# freeride
+# FREE RIDE PROJECT
 
-A new Flutter project.
+Аналог мобильного приложения INDRIVER;
